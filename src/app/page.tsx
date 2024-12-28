@@ -72,7 +72,7 @@ export default function Home() {
               onChange={(e: ChangeEvent<HTMLTextAreaElement>) => {
                 setSourceText(e.target.value);
               }}
-              placeHolder="Source Language"
+              placeHolder="Enter text to be translated"
             />
             <div className='flex flex-row justify-between w-full'>
               <span className='cursor-pointer flex space-x-2 flex-row'>
@@ -90,7 +90,7 @@ export default function Home() {
               id={"target-language"}
               value={displayText} // Use displayText state variable
               onChange={() => {}}
-              placeHolder={"Target Language"}
+              placeHolder={"Translation will appear here"}
               disabled // Make the textarea disabled
             />
             <div className="flex flex-row justify-between w-full">
