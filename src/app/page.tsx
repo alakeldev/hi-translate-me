@@ -90,7 +90,7 @@ export default function Home() {
               id={"target-language"}
               value={displayText} // Use displayText state variable
               onChange={() => {}}
-              placeHolder={"Translation will appear here"}
+              placeHolder="Translation will appear here"
               disabled // Make the textarea disabled
             />
             <div className="flex flex-row justify-between w-full">
