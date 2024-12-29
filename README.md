@@ -1,3 +1,69 @@
 <h1 align="center"> Hi Translate Me App </h1>
 
-Hi Translate Me is a versatile and user-friendly translation application designed to provide instant text and voice translations, making language barriers a thing of the past. With its sleek and intuitive interface, users can easily input text or utilize voice recognition for real-time translations. The application supports a wide range of languages, ensuring accessibility for diverse users. Key features include a source text area for input, a disabled target text area for displaying translations, and a language selector to choose the target language. Additionally, the app offers file upload functionality for translating text from documents, and a copy-to-clipboard feature for easy sharing of translations. The audio playback option further enhances the user experience by allowing users to hear the translated text. Overall, Hi Translate Me is an innovative solution for seamless multilingual communication, perfect for travelers, language learners, and anyone needing quick and accurate translations.
+## Project Description
+Hi Translate Me is a versatile and user-friendly translation application designed to provide instant text and voice translations, breaking down language barriers effortlessly. It leverages the power of Next.js, Tailwind CSS, React, and the ChatGPT-4 API to deliver a seamless and efficient translation experience.
+
+## Features
+
+ - Real-Time Translation: Translate text input into multiple languages instantly.
+
+- Voice Recognition: Input text via voice commands for translation.
+
+- File Upload: Upload text files for translation.
+
+- Language Selector: Choose from a variety of target languages for translation.
+
+- Copy to Clipboard: Easily copy translated text to the clipboard.
+
+- Audio Playback: Listen to the translated text for better understanding.
+
+- Disabled Target Text Area: The target text area is non-interactive to prevent user edits.
+
+## Technologies Used
+
+- Next.js: A React framework for building fast and scalable web applications.
+
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+
+- React: A JavaScript library for building user interfaces.
+
+- ChatGPT-4 API: An AI model from OpenAI used for translating text.
+
+## Installation and Setup
+
+Follow these steps to set up the project locally:
+
+#### Clone the Repository:
+
+git clone [<https://github.com/yourusername/hi-translate-me.git>](https://github.com/alakeldev/hi-translate-me.git)
+
+
+#### Install Dependencies:
+
+- npm install
+
+- Create a .env.local File: Create a .env.local file in the root directory of the project and add your OpenAI API key:
+
+
+- NEXT_PUBLIC_OPENAI_API_KEY=your-openai-api-key
+
+
+#### Run the Development Server:
+
+npm run dev
+
+Visit the Application: Open your browser and go to <http://localhost:3000> to see the application in action.
+
+## Usage
+
+- Enter Text: Type the text you want to translate into the source text area.
+
+- Select Language: Choose the target language from the language selector.
+
+- Translate: The translated text will appear in the target text area.
+
+- Voice Input: Use the voice recognition button to input text via speech.
+
+- File Upload: Upload a text file to translate its content.
+
+- Copy and Playback: Copy the translated text to the clipboard or listen to it via the audio playback feature.
